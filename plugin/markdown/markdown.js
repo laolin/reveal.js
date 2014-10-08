@@ -10,7 +10,7 @@
 	else {
 		// Browser globals (root is window)
 		root.RevealMarkdown = factory( root.marked );
-		root.RevealMarkdown.initialize();
+		//root.RevealMarkdown.initialize();
 	}
 }( this, function( marked ) {
 
